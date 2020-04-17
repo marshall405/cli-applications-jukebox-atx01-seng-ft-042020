@@ -1,5 +1,7 @@
 # Add your code here
-require "/bin/"
+require "/bin/jukebox"
+
+puts 
 
 def help 
   puts "I accept the following commands:"
