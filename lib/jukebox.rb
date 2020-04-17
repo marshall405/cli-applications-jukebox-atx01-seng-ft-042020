@@ -22,9 +22,9 @@ end
 
 def play(songs) 
   puts "Please enter a song name or number:"
-  user_input = gets.strip.to_i 
+  user_input = gets.strip.to_i + 1 
   
-  
+  puts "Playing #{songs[user_input]}"
 end
 
 def list(songs)
@@ -43,3 +43,5 @@ end
 
 
 list(songs)
+
+play(songs)
