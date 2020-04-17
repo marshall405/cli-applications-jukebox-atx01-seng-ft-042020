@@ -51,6 +51,8 @@ def run
       else 
         exit_jukebox
     end
+    puts "Please enter a comman:"
+    user_input = gets.strip
   end
   
 end
