@@ -27,8 +27,7 @@ def play(songs)
     user_input = user_input.to_i - 1
     puts songs[user_input] ? "Playing #{songs[user_input]}" : "Invalid input, please try again"
   else
-    # user_input is a string, check if its a song name 
-    songs.includ
+    puts songs.include?(user_input) ? "Playing #{so}"
   end
   
 end
