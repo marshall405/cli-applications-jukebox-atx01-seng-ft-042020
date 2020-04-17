@@ -36,8 +36,8 @@ def exit_jukebox
   puts "Goodbye"
 end
 
-def run 
-  puts "Please enter a comman:"
+def run(songs) 
+  puts "Please enter a command:"
   user_input = gets.strip
   
   while user_input != 'exit' do
@@ -51,13 +51,10 @@ def run
       else 
         exit_jukebox
     end
-    puts "Please enter a comman:"
+    puts "Please enter a command:"
     user_input = gets.strip
   end
   
 end
 
-
-list(songs)
-
-play(songs)
+run(songs)
