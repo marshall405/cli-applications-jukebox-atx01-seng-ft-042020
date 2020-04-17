@@ -49,7 +49,7 @@ def run(songs)
       when "list"
         list(songs)
       else 
-        exit_jukebox
+        puts "#{user_input} is not a valid command."
     end
     puts "Please enter a command:"
     user_input = gets.strip
