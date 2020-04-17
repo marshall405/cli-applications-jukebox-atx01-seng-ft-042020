@@ -1,7 +1,6 @@
 # Add your code here
-require "/bin/jukebox"
 
-p songs 
+
 
 def help 
   puts "I accept the following commands:"
@@ -16,7 +15,9 @@ def play
 end
 
 def list 
-  
+  songs.each_with_index do |song, index|
+    puts "#{index + 1}. #{song}"
+  end
 end
 
 def exit_jukebox
