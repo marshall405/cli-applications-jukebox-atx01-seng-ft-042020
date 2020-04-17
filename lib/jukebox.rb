@@ -43,6 +43,12 @@ def run
   while user_input != 'exit' do
     case user_input
       when "help"
+        help
+      when "play"
+        play(songs)
+      when "list"
+        list(songs)
+      end
   
   end
   
