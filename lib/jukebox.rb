@@ -40,7 +40,10 @@ def run
   puts "Please enter a comman:"
   user_input = gets.strip
   
+  while user_input != 'exit' do
+    
   
+  end
   
 end
 
