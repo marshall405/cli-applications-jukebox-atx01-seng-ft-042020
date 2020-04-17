@@ -1,7 +1,7 @@
 # Add your code here
 require "/bin/jukebox"
 
-puts 
+p songs 
 
 def help 
   puts "I accept the following commands:"
