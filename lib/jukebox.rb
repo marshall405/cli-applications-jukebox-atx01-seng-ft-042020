@@ -23,3 +23,6 @@ def run
   
 end
 
+
+
+help 
